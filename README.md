@@ -5,11 +5,11 @@ desafio](https://github.com/simplify-liferay/desafio-junior-backend-simplify).
 
 ## Tecnologias
 
--   Spring Boot
--   Spring MVC
--   Spring Data JPA
--   SpringDoc OpenAPI 3
--   MySQL
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring MVC](https://docs.spring.io/spring-framework/reference/web/webmvc.html)
+- [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+- [SpringDoc OpenAPI 3](https://springdoc.org/v2/#spring-webflux-support)
+- [Mysql](https://dev.mysql.com/downloads/)
 
 ## Práticas adotadas
 
@@ -31,6 +31,13 @@ desafio](https://github.com/simplify-liferay/desafio-junior-backend-simplify).
 
 `POST /todos`
 
+{
+    "desciption": "Desc Todo 1",
+    "name": "Todo 1",
+    "priority": 1,
+    "done": false
+}
+
 ### Listar Tarefas
 
 `GET /todos`
@@ -38,6 +45,12 @@ desafio](https://github.com/simplify-liferay/desafio-junior-backend-simplify).
 ### Atualizar Tarefa
 
 `PUT /todos/{id}`
+{
+    "desciption": "Desc Todo 11",
+    "name": "Todo 11",
+    "priority": 1,
+    "done": true
+}
 
 ### Remover Tarefa
 
