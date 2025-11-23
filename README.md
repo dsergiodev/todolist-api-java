@@ -25,6 +25,18 @@ desafio](https://github.com/simplify-liferay/desafio-junior-backend-simplify).
     ./mvnw clean package
     java -jar target/todolist-0.0.1-SNAPSHOT.jar
 
+## Como Rodar os Testes
+
+No terminal, dentro da pasta do projeto, rode:
+```bash
+# Usando Maven Wrapper (recomendado)
+./mvnw test
+
+# Ou, se tiver o Maven instalado globalmente
+mvn test
+```
+Isso executará todos os testes unitários e de integração do projeto.
+
 ## Endpoints
 
 ### Criar Tarefa
